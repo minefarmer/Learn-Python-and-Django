@@ -8,7 +8,7 @@ def quit(*args):
     root.destroy()
 
 
-    def clock_time():
+def clock_time():
         # Get the time remaining until the event
         # time datetime.datetime.now()
         time = datetime.datetime.now()
